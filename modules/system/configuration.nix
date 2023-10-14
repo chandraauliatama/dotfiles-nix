@@ -62,9 +62,14 @@
     boot = {
         cleanTmpDir = true;
         loader = {
+            grub = {
+                enable = true;
+                device = /dev/vda;
+                useOSProber = true;
+            };
         # systemd-boot.enable = true;
-        systemd-boot.editor = false;
-        efi.canTouchEfiVariables = true;
+        # systemd-boot.editor = false;
+        # efi.canTouchEfiVariables = true;
         timeout = 0;
         };
     };
