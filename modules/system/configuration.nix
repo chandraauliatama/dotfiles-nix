@@ -15,10 +15,10 @@
     # Install fonts
     fonts = {
         fonts = with pkgs; [
-            jetbrains-mono
+            # jetbrains-mono
             roboto
             openmoji-color
-            (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+            # (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
         ];
 
         fontconfig = {
