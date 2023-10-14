@@ -59,8 +59,8 @@
             nixosConfigurations = {
                 # Now, defining a new system is can be done in one line
                 #                                Architecture   Hostname
-                laptop = mkSystem inputs.nixpkgs "x86_64-linux" "laptop";
-                desktop = mkSystem inputs.nixpkgs "x86_64-linux" "desktop";
+                # laptop = mkSystem inputs.nixpkgs "x86_64-linux" "laptop";
+                # desktop = mkSystem inputs.nixpkgs "x86_64-linux" "desktop";
                 chandraat = mkSystem inputs.nixpkgs "x86_64-linux" "chandraat";
             };
     };
