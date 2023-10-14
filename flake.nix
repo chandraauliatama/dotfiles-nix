@@ -61,6 +61,7 @@
                 #                                Architecture   Hostname
                 laptop = mkSystem inputs.nixpkgs "x86_64-linux" "laptop";
                 desktop = mkSystem inputs.nixpkgs "x86_64-linux" "desktop";
+                chandraat = mkSystem inputs.nixpkgs "x86_64-linux" "chandraat";
             };
     };
 }
